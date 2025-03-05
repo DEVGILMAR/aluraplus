@@ -146,4 +146,58 @@ body{
 .container__botao:hover {
     background-color: white;
     color: blue;
-    border: 2px solid blue;}
+    border: 2px solid blue;
+}
+
+
+    /* Responsividade */
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr; /* Layout em coluna única */
+        padding: 0 20px;
+    }
+
+    .container__titulo {
+        font-size: 24px; /* Tamanho de texto menor */
+    }
+
+    .container__botao {
+        padding: 0.8em; /* Botão com menos padding */
+    }
+
+    .descricao__titulo {
+        font-size: 36px; /* Menor tamanho no título */
+    }
+
+    .dispositivos__lista {
+        flex-direction: column; /* Lista vertical */
+        margin: 2em 0;
+    }
+
+    .rodape__lista {
+        flex-direction: column; /* Links em coluna */
+    }
+
+    .rodape__texto {
+        font-size: 12px; /* Texto menor no rodapé */
+    }
+
+    .secundario {
+        margin: 0 2em; /* Menos margem nas laterais */
+    }
+}
+
+/* Para telas muito pequenas (celulares em modo retrato) */
+@media (max-width: 480px) {
+    .container__titulo {
+        font-size: 20px; /* Texto ainda menor */
+    }
+
+    .container__botao {
+        padding: 0.5em; /* Menos padding no botão */
+    }
+
+    .descricao__titulo {
+        font-size: 28px; /* Tamanho ainda menor */
+    }
+}
