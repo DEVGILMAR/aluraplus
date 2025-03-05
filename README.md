@@ -1,16 +1,39 @@
-AluraPlus
-AluraPlus é um projeto que busca simular uma plataforma de assinaturas de cursos, com uma interface simples e eficiente. Feito para praticar as habilidades em HTML, CSS e JavaScript, com foco em design responsivo e boa experiência de usuário.
+# **AluraPlus**
 
-Tecnologias Usadas
-HTML: Estruturação da página.
-CSS: Estilização da interface.
-JavaScript: Funcionalidades dinâmicas.
-Como Rodar o Projeto
-Clone o repositório:
-git clone https://github.com/DEVGILMAR/aluraplus.git
+AluraPlus é uma plataforma de assinatura de cursos, com foco em design responsivo e boas práticas de UI/UX. Criado para praticar **HTML**, **CSS** e **JavaScript**, este projeto simula a experiência de um serviço de assinatura com uma interface simples e funcional.
 
-Abra o arquivo index.html em seu navegador.
+---
 
-Funcionalidades
-Layout Responsivo: A plataforma se adapta a diferentes tamanhos de tela.
-Efeitos de Hover: Interatividade nos botões.
+## **Tecnologias Utilizadas**
+
+- **HTML**: Estruturação da página.
+- **CSS**: Estilização visual.
+- **JavaScript**: Funcionalidade interativa.
+
+---
+
+## **Como Rodar o Projeto**
+
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/DEVGILMAR/aluraplus.git
+    ```
+2. Abra o arquivo `index.html` no seu navegador.
+
+---
+
+## **Funcionalidades**
+
+- **Layout Responsivo**: A interface se adapta a diferentes tamanhos de tela.
+- **Efeitos de Hover**: Interatividade dinâmica nos botões e elementos da página.
+- **Design Limpo**: Foco na experiência de usuário e no visual agradável.
+
+---
+
+## **Contribuições**
+
+Contribuições são bem-vindas! Para adicionar melhorias ou correções, por favor, crie um **Pull Request**.
+
+---
+
+
